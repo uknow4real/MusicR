@@ -1,0 +1,84 @@
+
+/* CART STYLE */
+
+.product-container {
+    max-width: 80%;
+    margin:0 auto;
+    margin-top: 10px;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+.product-header {
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid royalblue;
+    margin: 0 auto;
+}
+.title {
+    width: 45%;
+}
+.price {
+    width: 15%;
+    display: flex;
+    border-left: 4px solid grey;
+    align-items: center;
+}
+.quantity {
+    width: 30%;
+    display: flex;
+    border-left: 4px solid grey;
+}
+.total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.products {
+    width: 100%;
+    max-width: 80%;
+    justify-content: flex-start;
+    margin: 0 0 0 10%;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#product-title {
+    width: 45%;
+}
+#product-price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+
+}
+#product-quantity{
+    width: 30%;
+    display: flex;
+}
+#product-total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+#infotext {
+    margin: 0 37%;
+    font-weight: bold;
+}
+
+#paypal-button {
+    margin: 0 65%;
+    width: 230px;
+}
+
+#cart-total {
+    margin: 0 82%;
+}

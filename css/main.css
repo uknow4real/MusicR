@@ -1,0 +1,125 @@
+html,
+body {
+    background-color: #e2e3e5;
+}
+header,
+
+th {
+    border: none;
+}
+
+/* classes */
+
+.masthead1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../img/header1.jpeg");
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../img/dj.jpg");
+    height: 50vh;
+    min-height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.footer-musicR {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: grey;
+    text-align: center;
+}
+
+.headertext {
+    color: white;
+}
+
+.inputsign {
+    margin-left: 5%;
+    width: 85%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.inputsign:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.icontable {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.icontable th,
+.icontable td {
+    padding: 0.75rem;
+    vertical-align: top;
+    text-align: center;
+}
+
+.signinbutton {
+    margin-left: 5%;
+    width: 50%;
+    background-color: #4167d0;
+    height: 3vh;
+    border: none;
+    margin-top: 7%;
+    color: white;
+}
+
+
+
+/* Unique ID's: */
+
+#navbarid {
+    background-color: #e2e3e5;
+    font-family: Arial;
+}
+
+#footerid {
+    background-color: #171a1d;
+    color: white;
+    position: static;
+    height: 60px;
+    width: 100%;
+    bottom:0;
+    font-family: Arial;
+}
+
+#mainsectionid {
+    background-color: #e2e3e5;
+}
+
+#icontable {
+    border: none;
+}
+
+#dropdownsign {
+    margin-right: 500px;
+}
+
+#nav-cart a{
+    background-color: #4167d0;
+    color: white;
+    border-radius: 11px;
+}
+
+#nav-cart a:hover {
+    color: #e9ecef;
+}
+
+
